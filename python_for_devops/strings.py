@@ -11,7 +11,6 @@ if uppr.lower() == lowr.lower() :
 else:
     print("Not Equal")
 
-print()
 
 
 extra_space = "   Automation Rocks! "
@@ -56,4 +55,3 @@ service = "nginx"
 status = "running"
 
 print(f"Service : {service.upper()} | Status : {status.upper()}")
-
