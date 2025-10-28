@@ -1,7 +1,5 @@
 def add(x ,y):
-    return x + y;
-
-print(add(1,2))
+    return x + y
 
 
 class math:
@@ -10,6 +8,5 @@ class math:
 
     def sub(x,y):
         return x- y
-ans =math.add(2,3)
 
-print(ans)
+
