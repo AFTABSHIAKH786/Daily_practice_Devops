@@ -10,3 +10,8 @@ for folder in folders:
 
     except FileNotFoundError:
         print(f'Folder "{folder}" do not exist ')
+
+
+list = []
+
+list.insert()
