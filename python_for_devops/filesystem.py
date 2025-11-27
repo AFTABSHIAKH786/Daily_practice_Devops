@@ -14,4 +14,3 @@ for folder in folders:
 
 list = []
 
-list.insert()
