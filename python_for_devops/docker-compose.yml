@@ -1,8 +1,12 @@
-version: '3'
+version: '3.8'
 
 services:
-  db:
-    image: mysql
+  math-app:
+    build: .
+    container_name: python-math
     ports:
-      - 3306:3306
+      - "8080:8080"
+    volumes:
+      - .:/app
+    restart: unless-stopped
 
